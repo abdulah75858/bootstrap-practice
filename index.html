@@ -1,138 +1,185 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  </head>
-  <style>
-    .button1{
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<style>
+    .button1 {
         border-radius: 10px;
         background-color: #f2f2;
         border: 1px solid black;
     }
-    .button2{
+
+    .button2 {
         border-radius: 10px;
         border: 1px solid black;
     }
-    .container1{
+
+    .container1 {
         background-color: blueviolet;
-        
+        padding-top: 40px;
+        padding-bottom: 40px;
+
     }
-  </style>
-  <body>
+
+    .button3 {
+        border-radius: 10px;
+        border: 1px solid black;
+        background-color: #f2f2;
+    }
+
+    .container {
+        padding-top: 50px;
+        padding-left: 30px;
+    }
     
+</style>
+
+<body>
+
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Orido</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+            <a class="navbar-brand" href="#">Orido</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
 
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Service</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-                
-              </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
 
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
                 </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="purchase">
-              <input class="form-control me-2" type="purchase" placeholder="Purchase" aria-label="Purchase">
-              <!-- <button class="btn btn-outline-success" type="submit">Purchase Now</button> -->
-            </form>
-          </div>
+                <form class="d-flex" role="purchase">
+                    <input class="form-control me-2" type="purchase" placeholder="Purchase" aria-label="Purchase">
+                    <!-- <button class="btn btn-outline-success" type="submit">Purchase Now</button> -->
+                </form>
+            </div>
         </div>
-      </nav>
-    
-      <div class="container">
-<div class="container text-center">
-    <div class="row">
-      <div class="col">
-        <h1>
-            M.Abdullah
-        </h1>
-        <h4>
-            ___ Visual Designer
-        </h4>
-        <p>
-            I am Creative Designer based in new york, and i am very <br> passionate and dedicated to my work
-        </p>
-        <button class="button1"> Say hello</button> <span>My work &#8599;</span>
-        <p>Follow me: </p>
+    </nav>
 
-      </div>
-      <div class="container1">
-     <h1>
-         About me___
-     </h1>
-     <p>
-        With 10 year experience as a professional web developer, I <br>
-        have acquired the skills and knowledge necessary to make <br> your project a success. I enjoy every step of design
-        process from discussion and collabration
-     </p>
-     <button class="button2">Download Cv</button>
-    
+    <div class="container ">
+        <div class="row">
+            <div class="col">
+                <h1>
+                    M.Abdullah
+                </h1>
+                <h4>
+                    ___ Visual Designer
+                </h4>
+                <p>
+                    I am Creative Designer based in new york, and i am very <br> passionate and dedicated to my work
+                </p>
+                <button class="button1"> Say hello</button> <span>My work &#8599;</span>
+                <p>Follow me: </p>
+            </div>
+            <div class="col">
+                <img src="./1.jpg" alt="" class="w-100 h-100">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container1 py-4">
+        <h1>
+            About me___
+        </h1>
+        <p>
+            With 10 year experience as a professional web developer, I <br>
+            have acquired the skills and knowledge necessary to make <br> your project a success. I enjoy every
+            step of design
+            process from discussion and collabration
+        </p>
+        <button class="button2">Download Cv</button>
+
 
     </div>
+
     <div class="container text-center">
         <div class="row">
-          <div class="col">
-            <h1>
-                My Expert <br>
-                Areas___
-            </h1>
-            <p>Can you express yourself however you want and <br>
-            whenever you want for free <br> you can customize a template and make your own scratch with an,<br>
-            immersive library at your disposal. you can express yourself how ever you want and when ever you free.
-            <br>
-            <br>
+            <div class="col">
+                <h1>
+                    My Expert <br>
+                    Areas___
+                </h1>
+                <p>Can you express yourself however you want and
+                    whenever you want for free you can customize a template and make your own scratch with an,
+                    immersive library at your disposal. you can express yourself how ever you want and when ever
+                    you free.
 
-        </p>
-        <p>
-            you can customize a template and make your own from scratch, <br>
-            with immersive library at your disposal 
-        </p>
-          </div>
-          <div class="col">
-            <h3>Skills &#8599;</h3> <span>Experience &#8599; </span> <span>Education &#8599;</span>
-          </div>
+
+
+                </p>
+                <p>
+                    you can customize a template and make your own from scratch, <br>
+                    with immersive library at your disposal
+                </p>
+                <button class="button3">
+                    My Resume </button>
+            </div>
+            <div class="col">
+                <div class="d-flex justify-content-evenly">
+                    <span>Skills &#8599;</span>
+                    <span> Experience &#8599; </span>
+                    <span>Education &#8599;</span>
+                </div>
+
+                <ul>
+                    <li>
+                        2021-Present <span></span> 2020-2021
+                    </li>
+                </ul>
+            </div>
+
         </div>
-      </div>
-  </div>
+    </div>
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
